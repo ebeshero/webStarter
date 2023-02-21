@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
+     * On Windows, go to the browser and type control + o and browse to find this file to open it.
+     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
+     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
+    -->
+    <head>
+        <!-- What's in the <head> element is a "meta" area not for display. 
+            It holds important information about the website's contents.
+            The text inside the <title> element does show in the top tab of a web browser. 
+             The <head> is where we will include info about styling the site, too. -->
+        <title>Intro HTML</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Here is a place where we can add a little styling code called CSS to this page. 
+            I used it to apply a background color to the body element.
+        -->
+        <!-- This code below is called CSS: It stands for Cascading Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+  
+    </head>
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
+        <h1>My Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume</a> 
+        </nav>
+        <section class="gallery">
+          
+            <figure>
+                <img src="images/newt-mosaic4.png" alt="mosaic image of firebelly newt" />
+                <figcaption>a stylized image of a firebelly newt that Dr. B made as a web logo on <a
+                        href="https://newtfire.org">newtfire.org</a></figcaption>
+            </figure>
+            <figure>
+                <img src="images/tRex-MrRogers.jpg" alt="sculpture seen in 2023 in Pittsburgh, PA: Mr. Rogers fused with a T. Rex" />
+                <figcaption>Mr. Rogers as a T. Rex? </figcaption>
+            </figure>
+            <figure>
+                <img src="images/cockatoo.jpg" alt="cockatoo" />
+                <figcaption>Mr. Rogers as a T. Rex? </figcaption>
+            </figure>
+          
+        </section>
+       
+    </body>
+</html>
